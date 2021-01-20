@@ -1,0 +1,24 @@
+$(document).ready(function(){
+  $('#checkoutForm').on('submit',function(event){
+    event.preventDefault();
+    $.ajax({
+			method:'POST',
+			url:$('#checkoutForm').attr('action'),
+			data:$('#checkoutForm').serialize()
+		}).done(function(response){
+      if(response == 'false'){
+        $("#captchaAlert").show();
+        $("#captchaAlert").fadeOut(4000);
+      }else{
+        $('#checkoutForm').hide();
+        $("#orderNumber").text('#'+response);
+        $('#checkout').fadeIn(1500);
+        $("#captchaAlert").fadeOut(10);
+      }
+      
+		});
+
+  });
+
+ 
+});
