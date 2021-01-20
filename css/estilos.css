@@ -4,13 +4,15 @@
 body{
     
     margin: 0;
-    font-size: 1rem;
     line-height: 1.5;
     color: #333;
    overflow-x: hidden;
 
 }
 .nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
     padding: 10px;
     font-size: 30px;
     height: 80px;
@@ -18,18 +20,29 @@ body{
 
     
 }
-.frase, .nosotros,.empresa{
-margin: 100px;
+.nav-item{
+    margin-right: 50px;
+}
+.logo{
+   margin-right: 15px;
+   margin-left: 15px;
+    width: 100px;
+    height: 50px;
+}
+.nosotros,.empresa{
+    
+margin: 200px;
 width: 100% ;
-height: 400px;
+height: 200px;
 }
 .nosotros, h3{
     font-size: 55px;
     margin: 25px;
 }
 .empresa, h3{
+    
     font-size: 55px;
-    margin: 25px;
+    margin-top: 60px;
     
 }
 .nosotros p{
@@ -37,11 +50,13 @@ height: 400px;
     margin:25px;
 
 }
+.frase{
+    margin-top: 200px;
 
+}
 .frase h2{
-    margin-top: 35px;
     text-align: center;
-    color: chocolate;
+    color: rgb(247, 117, 25);
 }
 
 #slider{
@@ -116,7 +131,7 @@ font-family: 'Philosopher', sans-serif;
     
 }h2{
     color: white;
-    font-size:120px;
+    font-size:80px;
     font-family: 'Caveat', cursive;
     font-family: 'Philosopher', sans-serif;
     
@@ -145,9 +160,15 @@ footer{
     padding: 10rem 0;
 
 }
+#contacto{
+margin: 150px;
+
+
+}
+
 .contacto{
     padding: 0;
-    margin-top: 0;
+    margin-top: 25px;
     margin-left: 2rem;
     color: rgb(155, 155, 155);
     text-align: justify;
