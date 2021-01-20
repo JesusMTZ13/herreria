@@ -11,7 +11,7 @@
 <body>
   <ul class="nav justify-content-center fixed-top ">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
+      <a class="nav-link active" href="#">Conocenos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link</a>
@@ -82,13 +82,10 @@
           <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est exercitationem quas <br> aliquam adipisci, 
             incidunt nam consequuntur molestiae. 
             Accusamus, placeat tenetur ex fugiat iusto aliquid <br>  voluptatem molestias praesentium cupiditate quae explicabo!</p>  </div>
-    <div class="row col-8">
-        
-          
-          <img src="./img/calidad.jpg" alt="" class="img-responsive" style="width: 100px;" height="100px">
+    <div class="empresa">
        
           <h3>Nuestra Empresa</h3>
-          <p>Empresa establecida en un pequeño pueblo, comprometidos con brindar la mejor calidad en nuestros productos
+          <p style="text-align: justify;">Empresa establecida en un pequeño pueblo, comprometidos con brindar la mejor calidad en nuestros productos
           y brindando el mejor servicio siendo este ultimo el que nos identifica.</p>
             <p>hsgdgthstrhdyrjhdhj</p>
   </div>
@@ -96,22 +93,57 @@
 <div class="spinner-border" role="status">
   <span class="sr-only">Loading...</span>
 </div>
-<footer>  
-  <div class="row col-4">
-    <div class="divisor"></div>
-    <div class="contacto">
-      <span>Contacto</span>
-      
-    </div>
-    <div><img src="./img/ico/contacto.png" width="50px" height="50px"></div>
-    
 
-    <div class="redes">
-      <span>Social</span>
-    </div> 
-    <img src="./img/ico/face.png" width="50px" height="50px" >
+<section id="contacto">
+  <div class="container"> 
+    <h5>Contactanos</h5>
+    <div class="row">
+      <div class="col-6">
+            <h5>Favorde llenar el formulario</h5>
+            <form action="">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="email" class="form-control" id="asunto" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary">Enviar Mensaje</button>
+              </div>
+            </form>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8829714797093!2d-107.63065698488799!3d31.77367768128664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86dc21a5ce9a1257%3A0x2443c803afa2b904!2sCentro%2C%2031830%20Puerto%20Palomas%2C%20Chih.!5e0!3m2!1ses!2smx!4v1611164781692!5m2!1ses!2smx"
+         width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <footer>
+        
+      </footer>
+    </div>
   </div>
-  
+
+</section>
+
+<footer>  
+  <nav class="contacto ">
+    <ul class="icono" > 
+      <li ><img src="./img/ico/contacto.png" alt=""></li>
+      <li class="titu">Contacto</li>
+      <li> 656-698-7856 </li>
+    </ul>
+    <ul class="social">
+      <li><img src="./img/ico/face.png" alt=""></li>
+      <li>Nuestras redes</li>
+    </ul>
+  </nav>
+  <div class="text-center" style="color: white;" >© Todos los derechos reservados</div>
 </footer>
 
     <script src="./js/jquery-3.5.1.slim.min.js"> </script>

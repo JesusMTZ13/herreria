@@ -18,14 +18,19 @@ body{
 
     
 }
-.frase, .nosotros{
+.frase, .nosotros,.empresa{
 margin: 100px;
 width: 100% ;
 height: 400px;
 }
-.nosotros h3{
+.nosotros, h3{
     font-size: 55px;
     margin: 25px;
+}
+.empresa, h3{
+    font-size: 55px;
+    margin: 25px;
+    
 }
 .nosotros p{
     font-size: 35px;
@@ -135,15 +140,22 @@ font-family: 'Philosopher', sans-serif;
     text-decoration: none;
 }
 footer{
-padding: 0;
+
     background-color: #1b0f4de7 ;
     padding: 10rem 0;
 
 }
-.contacto, .redes{
+.contacto{
     padding: 0;
     margin-top: 0;
-
-    color: rgb(134, 134, 134);
+    margin-left: 2rem;
+    color: rgb(155, 155, 155);
     text-align: justify;
+}
+li{
+    list-style: none;
+}
+.icono .titu {
+font-size: 30px;
+
 }
